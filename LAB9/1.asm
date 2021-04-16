@@ -1,6 +1,4 @@
-[12:59 PM, 4/16/2021] Saibaba-Alapati: plz
-[1:06 PM, 4/16/2021] Gayatri: org 100h
-
+org 100h
 #start=stepper_motor.exe#
 jmp start
 datain db 0000_0011b
