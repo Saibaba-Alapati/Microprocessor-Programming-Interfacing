@@ -1,4 +1,3 @@
-; Virtual Traffic Signal init
 #start=Traffic_Lights.exe#
 
 name "traffic"
@@ -10,10 +9,6 @@ mov si, offset situation
 next:
     mov ax, [si]
     out 4, ax
-
-; CX-DX Registers to provide wait instructions for 5seconds
-; wait 5 seconds (5 million microseconds)
-; 004C4B40h = 5,000,000
 
 mov cx, 4Ch
 mov dx, 4B40h

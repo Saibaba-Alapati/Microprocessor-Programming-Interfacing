@@ -11,8 +11,6 @@ out 199, ax
 mov ax, -238d
 out 199, ax
 
-; Eternal loop to write
-; values to port:
 
 mov ax, -00005d
 
